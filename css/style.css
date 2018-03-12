@@ -40,6 +40,49 @@
 	margin-bottom: 1em;
 }
 
+img {
+	width: 100%;
+}
+
+.content img {
+	display: none;
+}
+
+@media only screen and (min-width: 768px){
+
+	#mainImage{
+		height: 90vh;
+		background-color: #2980b9;
+	}
+
+	.content{
+		width: 50%;
+		float: left;
+
+	}
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px){
+
+	#contentSection{
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.content{
+		width: 25%;
+	}
+
+	.content img{
+		display: block;
+	}
+
+}
+
 
 
 
